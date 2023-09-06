@@ -17,10 +17,14 @@ lvim.plugins = {
   {
     "tpope/vim-surround",
   },
+  {
+    "lexrupy/doom-one.nvim",
+  }
 
 }
 
-lvim.colorscheme = "tokyonight"
+-- lvim.colorscheme = "tokyonight"
+lvim.colorscheme = "doom-one"
 -- Kill trailings whitespaces
 lvim.autocommands = {
   {
